@@ -1,15 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Liga Coding</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  </head>
-  <body>
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liga Coding</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <nav class="fixed-top">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="nav-list d-flex">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#event">Event</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="logo">
+        <a href="index.html">
+          <img src="./assets/img/logo.png" width="30">
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero"></div>
+
+  <!-- Hero Content -->
+  <div class="hero-content">
+    <div class="container">
+      <div class="row text-center align-items-center">
+        <div class="col">
+          <p>Happy</p>
+          <h2>
+            Indendance <br />
+            Indonesian Day
+          </h2>
+          <p>17 Agustus 2022</p>
+          <a href="#about" class="btn btn-light">See More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <h2>Peristiwa Penting</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ut!
+        </p>
+
+        <!-- Peristiwa 1 -->
+        <div class="col-md-6">
+          <img type="button" data-bs-toggle="modal" data-bs-target="#img-1" src="./assets/img/bg-hero.jpg"
+            class="img-fluid img-thumb shadow" />
+          <!-- Modal -->
+          <div class="modal fade" id="img-1" tabindex="-1" aria-labelledby="img2Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="img2Label">Keterangan 1</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-start">
+                    Deskripsi Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Voluptatum, inventore. Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Distinctio, iusto.
+                  </p>
+                  <div class="text-muted text-end">17 Agustus 1945</div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    Kembali
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Peristiwa 2 -->
+        <div class="col-md-6">
+          <img type="button" data-bs-toggle="modal" data-bs-target="#img-2" src="./assets/img/bg-hero.jpg"
+            class="img-fluid img-thumb shadow" />
+          <!-- Modal -->
+          <div class="modal fade" id="img-2" tabindex="-1" aria-labelledby="img2Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="img2Label">Keterangan 2</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-start">
+                    Deskripsi Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Voluptatum, inventore. Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Distinctio, iusto.
+                  </p>
+                  <div class="text-muted text-end">17 Agustus 1945</div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    Kembali
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Peristiwa 3 -->
+        <div class="col-md-6 mt-4">
+          <img type="button" data-bs-toggle="modal" data-bs-target="#img-3" src="./assets/img/bg-hero.jpg"
+            class="img-fluid img-thumb shadow" />
+          <!-- Modal -->
+          <div class="modal fade" id="img-3" tabindex="-1" aria-labelledby="img2Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="img2Label">Keterangan 3</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-start">
+                    Deskripsi Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Voluptatum, inventore. Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Distinctio, iusto.
+                  </p>
+                  <div class="text-muted text-end">17 Agustus 1945</div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    Kembali
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Peristiwa 4 -->
+        <div class="col-md-6 mt-4">
+          <img type="button" data-bs-toggle="modal" data-bs-target="#img-4" src="./assets/img/bg-hero.jpg"
+            class="img-fluid img-thumb shadow" />
+          <!-- Modal -->
+          <div class="modal fade" id="img-4" tabindex="-1" aria-labelledby="img2Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="img2Label">Keterangan 4</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-start">
+                    Deskripsi Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Voluptatum, inventore. Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Distinctio, iusto.
+                  </p>
+                  <div class="text-muted text-end">17 Agustus 1945</div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    Kembali
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <hr>
+  </div>
+
+  <!-- Event Section -->
+  <section id="event">
+    <div class="container">
+      <div class="row">
+        <h2>Event Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ut!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
 </html>
