@@ -110,7 +110,8 @@ header .container .nav-list a:hover {
 
 /* Event Section */
 #event .container {
-  padding: 50px 80px;
+  padding: 50px 0px;
+  margin-top: 55px;
 }
 
 .carousel-inner{
@@ -141,19 +142,10 @@ footer {
   background: linear-gradient(red, rgb(151, 1, 1));
 }
 
-footer .container {
-  padding: 20px 0px;
-  text-align: center;
-  color: var(--txt-main);
-  font-size: 0.8rem;
-}
-/* #################### */
-
 /* Contact Footer */
 #contact{
   text-align: center;
-  padding: 20px;
-  background-color: #ff6666;
+  padding: 50px;
 }
 
 #contact h2{
@@ -192,6 +184,7 @@ footer .container {
   animation: 2s ball infinite;
   color: red;
   cursor: pointer;
+  z-index: 9;
 }
 
 @keyframes ball {
@@ -199,5 +192,49 @@ footer .container {
   30%  { transform: translateY(-10px); }
   50%  { transform: translateY(0); }
   100% { transform: translateY(0); }
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+  /* About Section */
+  #about .container {
+    padding: 50px 30px;
+  }
+
+  #contact{
+    padding: 50px 20px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 576px) {
+  .hero-content .container .row .col p {
+    font-size: 1rem;
+  }
+
+  .hero-content .container .row .col h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content .container .row .col p {
+    margin-top: 25px;
+  }
+
+  .hero-content .container .row .col .btn {
+    margin-top: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s;
+  }
+
+  /* About Section */
+  #about .container {
+    padding: 50px 40px;
+  }
+
+  /* Event Section */
+  #event .container .row .col-md-6 span h2 {
+    margin-top: 35px;
+  }
 }
 
