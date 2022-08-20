@@ -7,37 +7,34 @@
   --txt-main: #fff;  
 }
 
-body {
-  min-height: 200vh;
-}
-
 * {
   font-family: 'Montserrat', sans-serif;
 }
 
 /* Navbar Section */
-nav {
+header {
   padding: 20px 0px;
   color: var(--txt-main);
+  transition: 0.5s ease-in-out;
 }
 
-nav .container .logo a {
+header .container .logo a {
   font-weight: 700;
   text-decoration: none;
   color: var(--txt-main);
 }
 
-nav .container ul li {
+header .container ul li {
   list-style: none;
 }
 
-nav .container .nav-list a {
+header .container .nav-list a {
   text-decoration: none;
   padding: 0px 15px;
   color: var(--txt-main);
 }
 
-nav .container .nav-list a:hover {
+header .container .nav-list a:hover {
   color: red;
   transition: 0.3s ease-in;
 }
@@ -84,7 +81,7 @@ nav .container .nav-list a:hover {
 
 /* About Section */
 #about .container {
-  padding: 40px;
+  padding: 50px 80px;
 }
 
 #about .container .row h2,
@@ -106,6 +103,7 @@ nav .container .nav-list a:hover {
 
 .img-thumb {
   transition: 0.3s ease-in;
+  border-radius: 7px;
 }
 
 .img-thumb:hover {
@@ -114,7 +112,42 @@ nav .container .nav-list a:hover {
 
 /* Event Section */
 #event .container {
-  padding: 20px;
+  padding: 50px 80px;
+}
+
+.carousel-inner{
+  border-radius: 7px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0px 15px;
+  border-radius: 7px;
+}
+
+.carousel-caption p,
+.carousel-caption h5 {
+  color: var(--txt-main);
+}
+
+.carousel-caption h5 {
+  font-size: 1rem;
+}
+
+.carousel-caption p {
+  font-size: 0.8rem;
+}
+
+/* Footer Section */
+footer {
+  background: linear-gradient(red, rgb(151, 1, 1));
+}
+
+footer .container {
+  padding: 20px 0px;
+  text-align: center;
+  color: var(--txt-main);
+  font-size: 0.8rem;
 }
 /* #################### */
 
