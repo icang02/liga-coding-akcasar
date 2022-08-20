@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
-
-
 /* Color */
 :root {
   --txt-main: #fff;  
@@ -151,6 +149,34 @@ footer .container {
 }
 /* #################### */
 
-/* #################### */
+/* Contact Footer */
+#contact{
+  text-align: center;
+  padding: 20px;
+  background-color: #ff6666;
+}
+
+#contact h2{
+  font-weight: 700;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+#contact p{
+  color: #fff;
+  margin-top: 15px;
+}
+
+#contact .icon{
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact .icon .col-md-3 img{
+  width: 25px;
+  text-align: center;
+  margin: 20px 0px;
+}
+
 
 /* #################### */
