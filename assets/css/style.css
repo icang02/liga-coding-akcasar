@@ -9,6 +9,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+header#mobile {
+  display: none;
+}
+
 /* Navbar Section */
 header {
   padding: 20px 0px;
@@ -208,6 +212,15 @@ footer {
 
 /* Mobile */
 @media only screen and (max-width: 576px) {
+  header#navbar {
+    display: none;
+  }
+
+  header#mobile {
+    display: block;
+    transform: translateY(-20px);
+  }
+
   .hero-content .container .row .col p {
     font-size: 1rem;
   }

@@ -1,4 +1,4 @@
-let navbar = document.querySelector('header');
+let navbar = document.querySelector('header#navbar');
 let arrowTop = document.querySelector('.arrow-top');
 arrowTop.style.display = "none";
 
@@ -11,6 +11,7 @@ window.addEventListener('scroll', function() {
     navbar.style.transform = "translateY(0px)";
     arrowTop.style.display = "none";
   }
+
 });
 
 const backTop = () => {
