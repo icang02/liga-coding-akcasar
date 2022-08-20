@@ -163,7 +163,6 @@ footer .container {
 }
 
 #contact p{
-  color: #fff;
   margin-top: 15px;
 }
 
@@ -172,10 +171,16 @@ footer .container {
   justify-content: space-between;
 }
 
-#contact .icon .col-md-3 img{
+#contact .icon .col-md-3 svg{
   width: 25px;
   text-align: center;
   margin: 20px 0px;
+}
+
+#contact h2,
+#contact span,
+#contact p{
+  color: #fff;
 }
 
 
