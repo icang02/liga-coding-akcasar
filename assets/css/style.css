@@ -6,6 +6,7 @@
 }
 
 * {
+  box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -141,19 +142,11 @@ footer {
   background: linear-gradient(red, rgb(151, 1, 1));
 }
 
-footer .container {
+#contact{
   padding: 20px 0px;
   text-align: center;
   color: var(--txt-main);
-  font-size: 0.8rem;
-}
-/* #################### */
-
-/* Contact Footer */
-#contact{
-  text-align: center;
-  padding: 20px;
-  background-color: #ff6666;
+  font-size: 0.95rem;
 }
 
 #contact h2{
@@ -163,7 +156,9 @@ footer .container {
 }
 
 #contact p{
-  margin-top: 15px;
+  float: inline-end;
+  margin-top: 25px;
+  font-size: 15px;
 }
 
 #contact .icon{
@@ -172,9 +167,15 @@ footer .container {
 }
 
 #contact .icon .col-md-3 svg{
-  width: 25px;
+  width: 100%;
   text-align: center;
-  margin: 20px 0px;
+  margin: 20px 5px;
+}
+
+#contact .icon .col-md-3 span{
+  width: 100%;
+  min-width: 25px;
+  margin-bottom: 15px;
 }
 
 #contact h2,
@@ -183,7 +184,6 @@ footer .container {
   color: #fff;
 }
 /* #################### */
-
 .arrow-top {
   position: fixed;
   bottom: 2%;
