@@ -149,7 +149,9 @@ footer {
 /* Contact Footer */
 #contact{
   text-align: center;
-  padding: 50px;
+  padding: 20px 0px;
+  color: var(--txt-main);
+  font-size: 0.95rem;
 }
 
 #contact h2{
@@ -159,7 +161,8 @@ footer {
 }
 
 #contact p{
-  margin-top: 15px;
+  margin-top: 25px;
+  font-size: 15px;
 }
 
 #contact .icon{
@@ -168,9 +171,15 @@ footer {
 }
 
 #contact .icon .col-md-3 svg{
-  width: 25px;
+  width: 100%;
   text-align: center;
-  margin: 20px 0px;
+  margin: 20px 5px;
+}
+
+#contact .icon .col-md-3 span{
+  width: 100%;
+  min-width: 25px;
+  margin-bottom: 15px;
 }
 
 #contact h2,
