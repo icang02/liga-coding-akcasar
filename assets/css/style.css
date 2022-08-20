@@ -182,6 +182,22 @@ footer .container {
 #contact p{
   color: #fff;
 }
-
-
 /* #################### */
+
+.arrow-top {
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+  transition: 0.3s ease-in;
+  animation: 2s ball infinite;
+  color: red;
+  cursor: pointer;
+}
+
+@keyframes ball {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-10px); }
+  50%  { transform: translateY(0); }
+  100% { transform: translateY(0); }
+}
+
